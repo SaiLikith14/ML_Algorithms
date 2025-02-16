@@ -16,6 +16,7 @@ How It Works?
 Applies the sigmoid function to map output values between 0 and 1.
 Uses a threshold (usually 0.5) to classify data.
 Optimizes using Maximum Likelihood Estimation (MLE).
+
 Pros:
 ✔️ Simple and effective for linear problems
 ✔️ Computationally efficient
