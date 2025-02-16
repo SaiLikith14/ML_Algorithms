@@ -8,9 +8,11 @@ Alright, folks! You want to understand these ML algorithms without drowning in j
 **1. Logistic Regression — The Yes/No Expert**
 
 What’s the Deal?
+
 Despite its name, logistic regression is a classification algorithm. It’s used for binary classification (like spam vs. not spam, fraud vs. legit). It predicts probabilities and decides which class a data point belongs to.
 
 How It Works?
+
 Applies the sigmoid function to map output values between 0 and 1.
 Uses a threshold (usually 0.5) to classify data.
 Optimizes using Maximum Likelihood Estimation (MLE).
@@ -24,7 +26,7 @@ Cons:
 ❌ Sensitive to outliers
 ❌ Assumes independent features (which is often not true)
 
-Where It’s Used?
+Where It’s Used?\n
 Spam detection
 Credit scoring
 Disease prediction (heart disease, diabetes, etc.)
