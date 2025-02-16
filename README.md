@@ -6,9 +6,14 @@ This repository contains implementations of fundamental Machine Learning (ML) al
 📂 Available Algorithms
 
 K-Nearest Neighbors (KNN) - K-nearest-neighbours.ipynb
+
 Decision Tree - decisiontree.ipynb
+
 K-Means Clustering - kmeans.ipynb
+
 Logistic Regression - logistic-regression.ipynb
+
 Random Forest - randomforest.ipynb
+
 Support Vector Machine (SVM) - svm-support-vector-machine.ipynb
 
