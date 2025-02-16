@@ -26,7 +26,8 @@ Cons:
 ❌ Sensitive to outliers
 ❌ Assumes independent features (which is often not true)
 
-Where It’s Used?\n
+Where It’s Used?
+
 Spam detection
 Credit scoring
 Disease prediction (heart disease, diabetes, etc.)
@@ -34,13 +35,16 @@ Disease prediction (heart disease, diabetes, etc.)
 **2. K-Nearest Neighbors (KNN) — Lazy But Smart!**
 
 What’s the Deal?
+
 KNN is like that one student who doesn’t take notes but gets good grades by looking at the smartest kids around them. It classifies data based on the closest k neighbors in the feature space. No training phase—just pure comparison.
 
 How It Works?
+
 You give it a new data point.
 It checks its k nearest neighbors.
 It assigns the most common class (for classification) or averages the values (for regression).
 Distance matters! Usually, it uses Euclidean distance to measure closeness.
+
 Pros:
 ✔️ Super simple, no fancy training required
 ✔️ Works well for small datasets
@@ -52,6 +56,7 @@ Cons:
 ❌ Choosing the right k is tricky
 
 Where It’s Used?
+
 Recommendation systems (e.g., "You watched this, so you might like that.")
 Handwriting & image recognition
 Medical diagnosis (finding similar patient cases)
@@ -59,13 +64,16 @@ Medical diagnosis (finding similar patient cases)
 **3. K-Means Clustering — Finding Hidden Groups**
 
 What’s the Deal?
+
 K-Means is an unsupervised learning algorithm used to group similar data points into k clusters. Think of it like organizing your messy closet—grouping similar clothes together without predefined categories.
 
 How It Works?
+
 Picks k random centroids (initial cluster centers).
 Assigns each data point to the nearest centroid.
 Updates the centroids based on the new clusters.
 Repeats until clusters stop changing.
+
 Pros:
 ✔️ Fast and efficient for large datasets
 ✔️ Easy to implement
@@ -77,6 +85,7 @@ Cons:
 ❌ Assumes clusters are spherical (real-world data isn’t always that neat)
 
 Where It’s Used?
+
 Customer segmentation (grouping users based on behavior)
 Image compression (color quantization)
 Market research
@@ -84,13 +93,16 @@ Market research
 **4. Decision Tree — If/Else on Steroids**
 
 What’s the Deal?
+
 A decision tree is literally a flowchart—it splits data based on conditions and keeps going until it can’t split anymore. It’s used for classification & regression problems.
 
 How It Works?
+
 Starts with a root node (main question).
 Splits data at each step based on best feature (measured using Entropy/Information Gain or Gini Index).
 Keeps splitting until stopping conditions are met.
 The final leaves represent the predictions.
+
 Pros:
 ✔️ Easy to understand & visualize
 ✔️ No need to normalize data
@@ -102,6 +114,7 @@ Cons:
 ❌ Biased towards features with more categories
 
 Where It’s Used?
+
 Customer segmentation (targeting the right audience)
 Fraud detection (flagging suspicious transactions)
 Medical diagnosis
@@ -109,12 +122,15 @@ Medical diagnosis
 **5. Random Forest — More Trees, Less Overfitting**
 
 What’s the Deal?
+
 Random Forest is an ensemble method that builds multiple decision trees and combines their results for a more reliable prediction. It reduces overfitting and improves accuracy.
 
 How It Works?
+
 Creates multiple decision trees on random subsets of data.
 Each tree votes on the outcome.
 The majority vote (classification) or average (regression) is the final result.
+
 Pros:
 ✔️ More accurate than a single decision tree
 ✔️ Handles missing data & outliers well
@@ -126,6 +142,7 @@ Cons:
 ❌ Needs tuning to perform well
 
 Where It’s Used?
+
 Fraud detection
 Stock market prediction
 Medical diagnostics
@@ -133,12 +150,15 @@ Medical diagnostics
 **6. Support Vector Machine (SVM) — The Perfect Divider**
 
 What’s the Deal?
+
 SVM is all about finding the best boundary (hyperplane) that separates two classes with the maximum margin. It works well with complex data, especially when using kernels.
 
 How It Works?
+
 Finds the hyperplane that maximizes the margin between two classes.
 Uses kernel functions (linear, polynomial, RBF) to handle non-linearly separable data.
 Only considers support vectors (important boundary points).
+
 Pros:
 ✔️ Works great in high-dimensional spaces
 ✔️ Can handle non-linear data with kernels
@@ -150,6 +170,7 @@ Cons:
 ❌ Hard to interpret compared to trees
 
 Where It’s Used?
+
 Facial recognition
 Text & speech classification
 Bioinformatics (e.g., cancer detection)
