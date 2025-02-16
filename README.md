@@ -33,7 +33,7 @@ Spam detection
 Credit scoring
 Disease prediction (heart disease, diabetes, etc.)
 
-**2. K-Nearest Neighbors (KNN) — Lazy But Smart!**
+# 2. K-Nearest Neighbors (KNN) — Lazy But Smart!
 
 What’s the Deal?
 
@@ -62,7 +62,7 @@ Recommendation systems (e.g., "You watched this, so you might like that.")
 Handwriting & image recognition
 Medical diagnosis (finding similar patient cases)
 
-**3. K-Means Clustering — Finding Hidden Groups**
+# 3. K-Means Clustering — Finding Hidden Groups
 
 What’s the Deal?
 
@@ -91,7 +91,7 @@ Customer segmentation (grouping users based on behavior)
 Image compression (color quantization)
 Market research
 
-**4. Decision Tree — If/Else on Steroids**
+# 4. Decision Tree — If/Else on Steroids
 
 What’s the Deal?
 
@@ -120,7 +120,7 @@ Customer segmentation (targeting the right audience)
 Fraud detection (flagging suspicious transactions)
 Medical diagnosis
 
-**5. Random Forest — More Trees, Less Overfitting**
+# 5. Random Forest — More Trees, Less Overfitting
 
 What’s the Deal?
 
@@ -148,7 +148,7 @@ Fraud detection
 Stock market prediction
 Medical diagnostics
 
-**6. Support Vector Machine (SVM) — The Perfect Divider**
+# 6. Support Vector Machine (SVM) — The Perfect Divider
 
 What’s the Deal?
 
@@ -176,7 +176,7 @@ Facial recognition
 Text & speech classification
 Bioinformatics (e.g., cancer detection)
 
-**Final Thoughts**
+# Final Thoughts
 
 Each algorithm has its own strengths and weaknesses—there’s no one-size-fits-all solution in machine learning. The choice depends on:
 ✔️ Your data (structured/unstructured, size, number of features)
