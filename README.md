@@ -5,7 +5,7 @@ Machine Learning Algorithms: A No-Nonsense Guide
 
 Alright, folks! You want to understand these ML algorithms without drowning in jargon? This guide is for you. No fluff—just the what, how, pros, cons, and where you’ll see them in action. Let’s go!
 
-#1. Logistic Regression — The Yes/No Expert
+# 1. Logistic Regression — The Yes/No Expert
 
 What’s the Deal?
 
