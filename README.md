@@ -31,7 +31,7 @@ Where It’s Used?
 
 Spam detection
 Credit scoring
-Disease prediction (heart disease, diabetes, etc.)
+Disease prediction (heart disease, diabetes, etc.) 
 
 # 2. K-Nearest Neighbors (KNN) — Lazy But Smart!
 
