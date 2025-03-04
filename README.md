@@ -8,7 +8,7 @@ Alright, folks! You want to understand these ML algorithms without drowning in j
 
 # 1. Logistic Regression — The Yes/No Expert
 
-What’s the Deal.?
+What’s the Deal?
 
 Despite its name, logistic regression is a classification algorithm. It’s used for binary classification (like spam vs. not spam, fraud vs. legit). It predicts probabilities and decides which class a data point belongs to.
 
